@@ -167,3 +167,15 @@ h2{
     font-size: 1.2cm;
     line-height: 57px;
 }
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #07453e;
+    background: transparent;
+    color: #221616;
+    cursor: pointer;
+}
