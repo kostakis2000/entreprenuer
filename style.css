@@ -179,3 +179,12 @@ button{
     color: #221616;
     cursor: pointer;
 }
+body{
+    background-image: url(images/flight.jpg);
+}
+#p1{
+    color: tomato;
+}
+#p2{
+    color: grey;
+}
