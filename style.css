@@ -174,9 +174,9 @@ button{
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #07453e;
+    border: 2px solid #08342e;
     background: transparent;
-    color: #221616;
+    color: #360505;
     cursor: pointer;
 }
 body{
@@ -246,4 +246,10 @@ ul li:hover ul.dropdown {
     padding: 4px 0;
     border-right: 1px solid #d6d4;
     vertical-align: middle;
+}
+.table-head{
+    background: #8665f7;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
 }
