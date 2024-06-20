@@ -6,6 +6,7 @@
 
 body{
     background: #eaeaea;
+    overflow: hidden;
 }
 
 .container{
@@ -30,7 +31,7 @@ body{
     background-position: 50% 50%;
     background-size: cover;
     display: inline-block;
-    transition: 0.5sl
+    transition: 0.5s;
 }
 
 .slide .item:nth-child(1),
@@ -65,7 +66,7 @@ body{
     text-align: left;
     color: #db0606;
     transform: translate(0, -50%);
-    font-family: system-uli;
+    font-family: system-ui;
     display: none;
 }
 
@@ -104,7 +105,7 @@ body{
     }
     to{
         opacity: 1;
-        trannsform: translate(0);
+        transform: translate(0);
         filter: blur(0);
     }
 }
