@@ -437,3 +437,56 @@ top: 0;
 .form__link:hover {
     text-decoration: underline;
 }
+.bodyyy{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.h11{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between elements */
+    width: fit-content;
+    margin: 0 auto; /* Center the form horizontally */
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.feedback-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="date"],
+.feedback-form select,
+.feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Include border width in element size */
+}
+
+.feedback-form textarea {
+    resize: vertical; /* Allow resizing the textarea vertically */
+}
+
+.feedback-form button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
