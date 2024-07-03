@@ -47,7 +47,7 @@
                 <label>Password</label>
             </div>
             <button type="Register">Register</button>
-            <button type="button" onclick="location.href='flight.html'">
+            <button type="button" onclick="location.href='flight.php'">
             Next page
             </button>
             

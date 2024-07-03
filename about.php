@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bodyy">
+    <?php require_once("Database/db_connect.php"); ?>
     <div class="container">
         <form class="form" id="login">
             <h1 class="form__title">Login</h1>
@@ -20,7 +21,7 @@
                 <div class="form__input-error-message"></div>
             </div>
             <button class="form__button" type="submit">Continue</button>
-            <button onclick="document.location='call.html'"  type="button">Next</button>
+            <button onclick="document.location='call.php'"  type="button">Next</button>
 
             <p class="form__text">
                 <a href="#" class="form__link">Forgot your password?</a>

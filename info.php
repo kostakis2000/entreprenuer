@@ -26,6 +26,6 @@
     </div>
 
     
-        <button onclick="document.location='why.html'"  type="button">Next</button>
+        <button onclick="document.location='why.php'"  type="button">Next</button>
 </body>
 </html>
