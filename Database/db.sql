@@ -21,6 +21,9 @@ SET time_zone = "+00:00";
 -- Database: `entreprenuer_project`
 --
 
+DROP DATABASE IF EXISTS entrepreneur_project;
+CREATE DATABASE IF NOT EXISTS entrepreneur_project;
+use `entreprenuer_project`;
 -- --------------------------------------------------------
 
 --
