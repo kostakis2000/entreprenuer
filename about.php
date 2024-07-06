@@ -7,24 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bodyy">
-    <?php require_once("Database/db_connect.php"); 
+    <?php 
+    
+    require_once("Database/db_connect.php"); 
 
-//     if(isset($_POST["submit"])) {
-//         $username= $_POST["Username"];
-//         $password=$_POST["password"];
-//         $email=$_POST["Email_address"];
-//         $gender=$_POST["gender"];
-//         $role=$_POST["role"];
-//     $sql = "INSERT INTO `users`(`username`, `password`, `gender_name`, `role_name` ) 
-//     VALUES ('$username','$password','$email','$role')";
+    if(isset($_POST["submit"])) {
+        $username= $_POST["Username"];
+        $password=$_POST["password"];
+        $email=$_POST["Email_address"];
+        $gender=$_POST["gender"];
+        $role=$_POST["role"];
+        $sql = "INSERT INTO `users`(`username`, `password`,`email`, `gender_name`, `role_name` ) 
+        VALUES ('$username','$password','$email', '$gender','$role')";
 
-//  if ($conn->query($sql) === TRUE) {
-//    echo "New record created successfully";
-//  } else {
-//    echo "Error: " . $sql . "<br>" . $conn->error;
-//  }    
-// }
-$conn->close(); ?>
+        if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+        } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+        }    
+    }
+    
+    $conn->close(); 
+    
+    ?>
     <div class="container">
         <form class="form" id="login">
             <h1 class="form__title">Login</h1>
