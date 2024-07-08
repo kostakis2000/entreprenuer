@@ -12,13 +12,13 @@
           <img src="images/logo.jpg" class="logo"
           height="100">
           <ul>
-            <li><a href="#">about</a></li>
-            <li><a href="#">book</a></li>
+            <li><a href="about.php">about</a></li>
+            <li><a href="book.php">book</a></li>
             <li><a href="#">trips</a></li>
-            <li><a href="#">info</a></li>
-            <li><a href="#">contact</a></li>
-            <li><a href="#">Why us</a></li>
-            <li><a href="#">flight</a></li>
+            <li><a href="info.php">info</a></li>
+            <li><a href="contact.php">contact</a></li>
+            <li><a href="why.php">Why us</a></li>
+            <li><a href="flight.php">flight</a></li>
           </ul>  
         </div>
         <div class="content">
